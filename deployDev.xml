@@ -63,11 +63,11 @@
     <property name="natural.ant.source.type.selection" value="2736127" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.ant.deploy.upload" value="YES" />
-    <property name="natural.ant.repository.type" value="GIT" />
+    <property name="natural.ant.repository.type" value="SVN" />
     <property name="natural.ant.server.port" value="2800" />
     <property name="natural.ant.project.name" value="SunnyIslands" />
     <property name="natural.ant.server.secured.environment" value="NO" />
-    <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NJX-CI-Dev" />
+    <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NJX-CI-Dev/" />
     <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.deploy.file.name" value="deployDev.xml" />
