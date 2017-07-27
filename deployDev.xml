@@ -64,7 +64,7 @@
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.ant.deploy.upload" value="YES" />
     <property name="natural.ant.repository.type" value="SVN" />
-    <property name="natural.ant.server.port" value="2800" />
+    <property name="natural.ant.server.port" value="2700" />
     <property name="natural.ant.project.name" value="SunnyIslands" />
     <property name="natural.ant.server.secured.environment" value="NO" />
     <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NJX-CI-Dev/" />
@@ -74,13 +74,13 @@
     <property name="natural.ant.deploy.delete" value="NO" />
     <property name="natural.ant.server.hostname" value="127.0.0.1" />
     <property name="natural.ant.mapping.string" value="CRUISE16=CRUISE16;RDCRUISE=RDCRUISE;" />
-    <property name="natural.ant.failonerror" value="NO" />
+    <property name="natural.ant.failonerror" value="YES" />
     <property name="natural.ant.project.steplibs" value="0;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
     <property name="natural.ant.repository.module" value="SunnyIslands" />
     <property name="natural.ant.deploy.catalog" value="YES" />
     <property name="natural.ant.library.steplibs" value="" />
-    <property name="natural.ant.server.environment" value="127.0.0.1-2800" />
+    <property name="natural.ant.server.environment" value="127.0.0.1-2700" />
     <property name="natural.ant.server.password" value="" />
     <property name="natural.ant.server.username" value="CI-DEV" />
     <property name="natural.ant.project.steplib.nsv" value="SYSTEM" />
