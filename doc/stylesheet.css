@@ -1,0 +1,31 @@
+/* NATdoc style sheet */
+/* Define colors, fonts and other style attributes here to override the defaults */
+/* Page background color */
+body { background-color: #FFFFFF } /* White */
+
+/* Headings */
+h1 { font-size: 145% }
+
+/* Links */
+a, a:link           {color: #006400 } /* dark green */
+a:visited, a.active {color: #8B008B } /* dark magenta */
+
+/* Table colors */
+.TableHeadingColor     { background: #8FBC8F } /* Dark  dark sea green */
+.TableSubHeadingColor  { background: #F0FFF0 } /* Light honeydew */
+.TableRowColor         { background: #FFFFFF } /* White */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: 100%; font-family: Helvetica, Arial, sans-serif }
+.FrameHeadingFont { font-size:  90%; font-family: Helvetica, Arial, sans-serif }
+.FrameItemFont    { font-size:  90%; font-family: Helvetica, Arial, sans-serif }
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#F0FFF0 } /* Light honeydew */
+.NavBarCell1Rev { background-color:#006400;} /* dark green */
+.NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#000000;} /* Black */
+.NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#FFFFFF;} /* White */
+
+.NavBarCell2    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;} /* White */
+.NavBarCell3    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;} /* White */
+

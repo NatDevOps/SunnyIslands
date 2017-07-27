@@ -1,0 +1,25 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Copycode ENLLOG-I.
+/**
+/** :author sagadmin
+/* TODO Enter your code here
+
+* MOVE *TIMESTMP TO  V-TMPSTAMP-B                                   /* Holen Zeitstempel
+* CALLNAT 'USR1009N' V-TMPSTAMP-B V-TMPSTAMP-P2                     /* Umrechnung
+* COMPUTE V-TMPSTAMP-PD  = (V-TMPSTAMP-P2  - V-TMPSTAMP-P1 ) / 1000
+* *
+* DEFINE WORK FILE 1 'C:\Training\308-66E\resources\CruiseRpcLog.txt' ATTRIBUTES 'APPEND'  
+* COMPRESS V-WORKFIELD 'übertragene Datensätze   :'  C-RECCNT INTO V-WORKREC
+* WRITE WORK 1 V-WORKREC    
+* COMPRESS V-WORKFIELD 'Response-Text:' P-RESPONSE.P-RSPTXT   INTO V-WORKREC
+* WRITE WORK 1 V-WORKREC
+* COMPRESS V-WORKFIELD 'Zeitdifferenz (Milli-Sek):'  V-TMPSTAMP-PD INTO V-WORKREC
+* WRITE WORK 1 V-WORKREC
+* COMPRESS '('*TIME') - Ende - Service:' &1& INTO V-WORKREC
+* WRITE WORK 1 V-WORKREC  
+* CLOSE WORK 1
+
+
