@@ -53,7 +53,7 @@ DEFINE DATA LOCAL
     3 AREA-CODE (A6)
     3 PHONE-NUMBER (A15)
   2 TIMESTAMP (B8)
-  2 FIRST-NAME-1 (U40)
+*  2 FIRST-NAME-1 (U40)
 /*) imported data fields from Data Definition Module NCCUSTOM
 /*( imported data fields from Data Definition Module NCYACHT
 1 NCYACHT VIEW OF NCYACHT
