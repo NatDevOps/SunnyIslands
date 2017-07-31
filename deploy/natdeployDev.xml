@@ -70,7 +70,7 @@
     <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NJX-CI-Dev/" />
     <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.mapping.enable" value="NO" />
-    <property name="natural.ant.project.deploy.file.name" value="deployDev.xml" />
+    <property name="natural.ant.project.deploy.file.name" value="deploy/natdeployDev.xml" />
     <property name="natural.ant.deploy.delete" value="NO" />
     <property name="natural.ant.server.hostname" value="127.0.0.1" />
     <property name="natural.ant.mapping.string" value="CRUISE16=CRUISE16;RDCRUISE=RDCRUISE;" />
