@@ -40,7 +40,7 @@ ON ERROR
 END-ERROR
 * ------------------------------------------------------------------
 MOVE ALL '-' TO V-WORKFIELD
-INCLUDE STALOG-I 'V-SERVICENAME' 
+*
 MOVE P-LANG TO MSG-GROUP-PARA.MSG-LANG
 * ------------------------------------------------------------------
 *
@@ -103,10 +103,4 @@ MOVE NCCUSTOMER.TIMESTAMP     TO P-CUSTOMER-DATA.TIMESTAMP
 *
 END-SUBROUTINE
 *
-INCLUDE GCULOG-I 'V-SERVICENAME' 
-*
-*
-
-
-
 END

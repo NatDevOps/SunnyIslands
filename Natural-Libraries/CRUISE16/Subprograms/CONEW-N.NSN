@@ -40,7 +40,7 @@ ON ERROR
 END-ERROR
 * ------------------------------------------------------------------
 MOVE ALL '-' TO V-WORKFIELD
-INCLUDE STALOG-I 'V-SERVICENAME'
+* INCLUDE STALOG-I 'V-SERVICENAME'
 MOVE P-LANG TO MSG-GROUP-PARA.MSG-LANG
 * ------------------------------------------------------------------
 
@@ -209,7 +209,5 @@ END-FIND
 *
 END-SUBROUTINE
 * ------------------------------------------------------------------
-*
-INCLUDE NEWLOG-I 'V-SERVICENAME'
 *
 END

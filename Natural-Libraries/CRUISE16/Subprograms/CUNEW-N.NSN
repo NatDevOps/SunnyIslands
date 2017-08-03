@@ -27,7 +27,7 @@ ON ERROR
 END-ERROR
 * ------------------------------------------------------------------
 MOVE ALL '-' TO V-WORKFIELD
-INCLUDE STALOG-I 'V-SERVICENAME' 
+*
 MOVE P-LANG TO MSG-GROUP-PARA.MSG-LANG
 * ------------------------------------------------------------------
 
@@ -62,12 +62,7 @@ CALLNAT 'CAMSG-N' MSG-GROUP-PARA
 COMPRESS MSG-GROUP-PARA.MSG-TYPE '-' MSG-GROUP-PARA.MSG-TEXT 
   INTO P-RESPONSE.P-RSPTXT
 MOVE MSG-GROUP-PARA.MSG-NR TO P-RESPONSE.P-RSPCODE  
-
-
-
+*
 * ------------------------------------------------------------------
-*
-INCLUDE GCULOG-I 'V-SERVICENAME' 
-*
 *
 END
